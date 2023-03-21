@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.main-div{
-  width: 100%;
-  height: 1000px;
+body{
   background-color: rgb(22, 107, 38);
 }
 
@@ -16,4 +14,54 @@
 .app-logo{
   width: 300px;
   height: auto;
+}
+
+.addItems{
+  margin-top: 20px;
+}
+.addItems input{
+  width: 270px;
+  padding: 10px;
+}
+
+.addItems i{
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -30px;
+  color: rgb(22, 107, 38);
+}
+
+.showItems{
+  margin-top: 20px;
+}
+
+.eachItems{
+  width: 275px;
+  padding: 10px;
+  background-color: yellowgreen;
+}
+
+.showItems i{
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 265px;
+  color: rgb(22, 107, 38);
+}
+
+.removeAll{
+  width: 295px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(22, 107, 38);
+  cursor: pointer;
+}
+
+.removeAll:hover{
+  background-color: yellowgreen;
 }
